@@ -2,24 +2,24 @@
  
 Technology in project: Spring, Hibernate, JWT authentication.
 
-Roles and first Admin user injected inside DataInitializer class using annotation @PostConstruct.
-Roles: ADMIN, USER.
-User:
-Login - admin@i.ua
+Roles and first Admin user injected inside DataInitializer class using annotation @PostConstruct.<br/>
+Roles: ADMIN, USER.<br/>
+User:<br/>
+Login - admin@i.ua<br/>
 Pass - admin123
 
-Access for the endpoint by roles:
-POST: /register - all
-GET: /cinema-halls - user/admin
-POST: /cinema-halls - admin
-GET: /movies - user/admin
-POST: /movies - admin
-GET: /movie-sessions/available - user/admin
-POST: /movie-sessions - admin
-PUT: /movie-sessions/{id} - admin
-DELETE: /movie-sessions/{id} - admin
-GET: /orders - user
-POST: /orders/complete - user
-PUT: /shopping-carts/movie-sessions - user
-GET: /shopping-carts/by-user - user
-GET: /users/by-email - admin
+Access for the endpoint by roles:<br/>
+POST: /register - all<br/>
+GET: /cinema-halls - user/admin<br/>
+POST: /cinema-halls - admin<br/>
+GET: /movies - user/admin<br/>
+POST: /movies - admin<br/>
+GET: /movie-sessions/available - user/admin<br/>
+POST: /movie-sessions - admin<br/>
+PUT: /movie-sessions/{id} - admin<br/>
+DELETE: /movie-sessions/{id} - admin<br/>
+GET: /orders - user<br/>
+POST: /orders/complete - user<br/>
+PUT: /shopping-carts/movie-sessions - user<br/>
+GET: /shopping-carts/by-user - user<br/>
+GET: /users/by-email - admin<br/>
